@@ -7,3 +7,5 @@
 - include 3 sections about me, developer identity, Learning journey
 - Included one image
 - added inline elements 
+- create a contact us file with semantics and working links
+- create a about us file with semantics and working links

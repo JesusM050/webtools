@@ -9,3 +9,5 @@
 - added inline elements 
 - create a contact us file with semantics and working links
 - create a about us file with semantics and working links
+- added style to the for the body, header, footer, typography and links
+- Used chatgpt helping me style my page

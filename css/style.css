@@ -45,7 +45,7 @@ footer p { margin: px 0; }
 /* Accessible link states on footer bg */
  a:link,
 a:visited {
-  color: #000;
+  color: purple;
   text-decoration: underline;
 }
 a:hover {

@@ -7,7 +7,6 @@ body {
   padding: 16px;
 }
 
-/* Typography */
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
   line-height: 1.25;
@@ -29,35 +28,38 @@ header {
   text-shadow: 5px 1px 8px whitesmoke;
   padding: 25px;
 }
-header ul { list-style: none; padding: 0; margin: 0; }
+header ul { list-style: none; padding: 0; margin: 0;}
 header li { display: inline-block; margin: 0 .75rem; }
-
-/* Footer (dark bg + high contrast) */
+header a:hover { color: lightcoral; text-decoration: none; }
+main nav ul { list-style: "\1F449"; padding: 0; margin: 0; }
 footer {
   background-color: #869ec4;
   color: #000;
   font-weight: 500;
   padding: 1%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-
+  text-align: center;
 }
-footer p {
-text-align: left;
-width: 400px; 
-padding-left: 200px;}
 
-/* Accessible link states on footer bg */
- a:link,
-a:visited {
-  color: purple;
+footer ul {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+}
+
+footer li {
+  padding: 5px;
+}
+
+footer a {
+  color: #0b2a4a;
   text-decoration: underline;
 }
-a:hover {
-  color: #113355;          
+
+footer a:hover {
+  color: lightgreen;
   text-decoration: none;
 }
-a:active {
-  color: #000;           
+
+footer a:active {
+  color: #000;
 }

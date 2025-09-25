@@ -31,6 +31,7 @@ header {
 header ul { list-style: none; padding: 0; margin: 0;}
 header li { display: inline-block; margin: 0 .75rem; }
 header a:hover { color: lightcoral; text-decoration: none; }
+main nav{ padding: 16px}
 main nav ul { list-style: "\1F449"; padding: 0; margin: 0; }
 footer {
   background-color: #869ec4;

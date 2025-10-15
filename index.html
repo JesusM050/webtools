@@ -24,6 +24,7 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/nav-menu.css">
 </head>
 
 <body>
@@ -39,6 +40,20 @@
     </header>
 
     <main class="main-content">
+        <nav class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a>
+        </nav>
+        <aside id="table-of-contents">
+            <h2>Table of Content</h2>
+            <ul >
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#identity">Developer Identity</a></li>
+                <li><a href="#future">Looking Ahead</a></li>
+            </ul>
+        </aside>
         <h2> About me</h2>
         <nav>
             <ul>
@@ -49,6 +64,12 @@
         </nav>
         <section id="about" class="clearfix">
             <h3>Who I Am</h3>
+            <figure class="float-left">
+                <a href="images/me1000px.jpg" target="_blank">
+                    <img src="images/me-small.jpg" alt="Jesus Mendoza" width="350" />
+                </a>
+                <figcaption>Jesus Mendoza</figcaption>
+            </figure>
             <p>
                 Hi, my name is <strong>Jesus Mendoza</strong>. I'm studying software development and enjoy coding,
                 especially learning Angular. Outside of school, I'm really into <em>fitness and soccer</em>. The
@@ -57,16 +78,16 @@
                 of building something from scratch and watching it come to life intrigues me.
                 I'm looking forward to learning and collaborating with all of you this semester.
             </p>
-            <figure class="float-left">
-            <a href="images/me1000px.jpg" target="_blank">
-            <img src="images/me-small.jpg" alt="Jesus Mendoza" width="350" />
-            </a>
-                <figcaption>Jesus Mendoza</figcaption>
-            </figure>
         </section>
 
         <section id="identity" class="clearfix">
             <h3>My Identity</h3>
+            <figure class="float-right">
+                <a href="images/developerIdentity-large.png" target="_blank">
+                    <img src="images/DeveloperIdentity-small.png" alt="future web developer identity" width="350" />
+                </a>
+                <figcaption>Future web developer identity</figcaption>
+            </figure>
             <p>
                 I'm a future web developer who likes to spend time diving into Angular — particularly Angular reactive
                 forms. I'm working to master <cite>modular architecture</cite>. I enjoy breaking down complex pieces
@@ -81,28 +102,22 @@
                 technology. I want to create something that's accessible and actually helps people stay
                 motivated in their fitness journey.
             </p>
-            <figure class="float-right">
-                <a href="images/developerIdentity-large.png" target="_blank">
-                    <img src="images/DeveloperIdentity-small.png" alt="future web developer identity" width="350" />
-                </a>
-                <figcaption>Future web developer identity</figcaption>
-            </figure>
         </section>
 
         <section id="future" class="clearfix">
             <h3>My Learning Journey</h3>
-            <p>
-                I started getting into web development in high school. It was challenging, but I found it fascinating to
-                create my own page. In this class, I look forward to sharpening my HTML and CSS skills. I also want to
-                explore more modern semantic practices while building web applications. Styling has always been a
-                weakness for me, so I hope this class helps me improve that area I've been neglecting.
-            </p>
             <figure class="float-left">
                 <a href="images/myLearning-large.jpg" target="_blank">
                     <img src="images/myLeaning-small.jpg" alt="Learning journey" width="350" />
                 </a>
                 <figcaption>Learning journey</figcaption>
             </figure>
+            <p>
+                I started getting into web development in high school. It was challenging, but I found it fascinating to
+                create my own page. In this class, I look forward to sharpening my HTML and CSS skills. I also want to
+                explore more modern semantic practices while building web applications. Styling has always been a
+                weakness for me, so I hope this class helps me improve that area I've been neglecting.
+            </p>
         </section>
     </main>
 

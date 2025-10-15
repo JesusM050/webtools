@@ -34,6 +34,9 @@ header a:hover { color: lightcoral; text-decoration: none; }
 main nav{ padding: 16px}
 main nav ul { list-style: "\1F449"; padding: 0; margin: 0; }
 main nav ul a:hover { color: lightcoral; text-decoration: none; }
+section{
+  scroll-margin-top: 200px;
+}
 footer {
   background-color: #869ec4;
   color: #000;
@@ -93,4 +96,31 @@ figcaption {
   color: #555;
   text-align: center;
   margin-top: 8px;
+}
+#table-of-contents{
+  position: sticky;
+  top: 1rem;
+  margin-left: auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 50% 20% / 10% 40%;
+  width: 200px;
+}
+aside ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+aside li {
+  margin-bottom: .5rem;
+}
+
+aside a {
+  text-decoration: none;
+  color: #0077cc;
+}
+
+aside a:hover {
+  text-decoration: underline;
 }

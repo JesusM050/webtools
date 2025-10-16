@@ -7,10 +7,10 @@
 }
 .main-content{
     box-sizing: border-box;
-    width: 100%;
+    width: 70%;
     padding: 16px;
-    margin: 0 auto;
-    border: 10px groove whitesmoke;
+    margin-right:  auto;
+    /*border: 10px groove whitesmoke;*/
 }
 .page-footer {
     box-sizing: border-box;

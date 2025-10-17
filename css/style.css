@@ -130,3 +130,12 @@ aside a {
 aside a:hover {
   text-decoration: underline;
 }
+.logo{
+  position: absolute;
+  right: clamp(8px, 3vw, 45px);
+  top: clamp(16px, 4vw, 28px);   /* ← increases on smaller screens */
+  height: clamp(36px, 8vw, 60px);
+  width: auto;
+  z-index: 2;
+}
+

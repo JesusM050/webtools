@@ -10,6 +10,7 @@
     padding: 15px 0;
     z-index: 1000;
     border-bottom: 10px groove whitesmoke;
+    z-index: 1;
 }
 
 .topnav a {

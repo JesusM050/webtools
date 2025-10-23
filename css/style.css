@@ -182,10 +182,12 @@ input[type="radio"] {
 
 .checkbox-label {
   display: flex;
+  flex-direction: column-reverse;
   align-items: center;
   gap: 0.5em;
   font-weight: normal;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 
 .radio-set {
@@ -201,6 +203,7 @@ input[type="radio"] {
 
 .radio-label {
   display: flex;
+  flex-direction: column-reverse;
   align-items: center;
   gap: 0.5em;
   font-weight: normal;
@@ -253,6 +256,7 @@ input[type="radio"]:hover {
   border-radius: 4px;
   font-weight: bold;
 }
+
 table{
   width: 100%;
   border-collapse: collapse;
@@ -263,6 +267,7 @@ th, td{
   padding: 8px;
   text-align: left;
 }
+
 th{
   background-color: #f2f2f2;
 }

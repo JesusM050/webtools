@@ -1,282 +1,334 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Press+Start+2P&display=swap');
+
 body {
-  background-color: #eeeeee;
-  color: #000;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.5;
-  padding: 30px;
+    background-color: #eeeeee;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 30px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: Lucida Sans,Arial, Helvetica, sans-serif;
-  line-height: 1.25;
-  margin: 0 0 0.5rem;
+    font-family: Lucida Sans, Arial, Helvetica, sans-serif;
+    line-height: 1.25;
+    margin: 0 0 0.5rem;
 }
-h1 { font-size: 2rem;   margin-top: 0; font-family: "Press Start 2P","Lato", sans-serif;}
-h2 { font-size: 1.5rem; }
-h3 { font-size: 1.25rem; }
-p  { 
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-               'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  margin: 0 0 0.75rem;
+
+h1 {
+    font-size: 2rem;
+    margin-top: 0;
+    font-family: "Press Start 2P", "Lato", sans-serif;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.25rem;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0 0 0.75rem;
 }
 
 header {
-  background-color: #c3c3c3;
-  color: #111;
-  text-align: center;
-  text-shadow: 5px 1px 8px whitesmoke;
-  padding: 25px;
-  width: 100%;
+    background-color: #c3c3c3;
+    color: #111;
+    text-align: center;
+    text-shadow: 5px 1px 8px whitesmoke;
+    padding: 25px;
+    width: 100%;
 }
-header ul { list-style: none; padding: 0; margin: 0;}
-header li { display: inline-block; margin: 0 .75rem; }
-header a:hover { color: lightcoral; text-decoration: none; }
-main nav{ padding: 16px}
-main nav ul { list-style: "\1F449"; padding: 0; margin: 0; }
-main nav ul a:hover { color: lightcoral; text-decoration: none; }
-section{
-  scroll-margin-top: 200px;
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
+
+header li {
+    display: inline-block;
+    margin: 0 .75rem;
+}
+
+header a:hover {
+    color: lightcoral;
+    text-decoration: none;
+}
+
+main nav {
+    padding: 16px
+}
+
+main nav ul {
+    list-style: "\1F449";
+    padding: 0;
+    margin: 0;
+}
+
+main nav ul a:hover {
+    color: lightcoral;
+    text-decoration: none;
+}
+
+section {
+    scroll-margin-top: 200px;
+}
+
 footer {
-  background-color: #869ec4;
-  color: #000;
-  font-weight: 500;
-  padding: 1%;
-  text-align: center;
+    background-color: #869ec4;
+    color: #000;
+    font-weight: 500;
+    padding: 1%;
+    text-align: center;
 }
 
 footer ul {
-  padding: 0;
-  margin: 0 auto;
-  list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
 }
 
 footer li {
-  padding: 5px;
+    padding: 5px;
 }
 
 footer a {
-  color: #0b2a4a;
-  text-decoration: underline;
+    color: #0b2a4a;
+    text-decoration: underline;
 }
 
 footer a:hover {
-  color: lightgreen;
-  text-decoration: none;
+    color: lightgreen;
+    text-decoration: none;
 }
 
 footer a:active {
-  color: #000;
+    color: #000;
 }
 
 .float-left {
-  float: left;
-  margin: 0 20px 20px 0;
+    float: left;
+    margin: 0 20px 20px 0;
 }
 
 .float-right {
-  float: right;
-  margin: 0 0 20px 20px;
+    float: right;
+    margin: 0 0 20px 20px;
 }
 
 .clearfix::after {
-  content: "";
-  display: block;
-  clear: both;
+    content: "";
+    display: block;
+    clear: both;
 }
 
 figure img {
-  max-width: 100%;
-  height: auto;
-  display: block;
+    max-width: 100%;
+    height: auto;
+    display: block;
 }
 
 figcaption {
-  font-size: 0.9em;
-  color: #555;
-  text-align: center;
-  margin-top: 8px;
+    font-size: 0.9em;
+    color: #555;
+    text-align: center;
+    margin-top: 8px;
 }
-#table-of-contents{
-  position: sticky;
-  top: 10rem;
-  margin-left: auto;
-  margin-right: 0;
-  margin-top: 3rem;
-  padding: 1rem;
-  background-color: #f9f9f9;
-  border: 1px solid #ccc;
-  border-radius: 50% 20% / 10% 40%;
-  width: 200px;
+
+#table-of-contents {
+    position: sticky;
+    top: 10rem;
+    margin-left: auto;
+    margin-right: 0;
+    margin-top: 3rem;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 50% 20% / 10% 40%;
+    width: 200px;
 }
-aside{
+
+aside {
     margin-top: auto;
 }
+
 aside ul {
-  list-style-type: none;
-  padding-left: 0;
+    list-style-type: none;
+    padding-left: 0;
 }
 
 aside li {
-  margin-bottom: .5rem;
+    margin-bottom: .5rem;
 }
 
 aside a {
-  text-decoration: none;
-  color: #0077cc;
+    text-decoration: none;
+    color: #0077cc;
 }
 
 aside a:hover {
-  text-decoration: underline;
+    text-decoration: underline;
 }
-.logo{
-  position: absolute;
-  right: clamp(8px, 3vw, 45px);
-  top: clamp(16px, 4vw, 28px);
-  height: clamp(36px, 8vw, 60px);
-  width: auto;
-  z-index: 2;
+
+.logo {
+    position: absolute;
+    right: clamp(8px, 3vw, 45px);
+    top: clamp(16px, 4vw, 28px);
+    height: clamp(36px, 8vw, 60px);
+    width: auto;
+    z-index: 2;
 }
+
 input,
 textarea,
 select {
-  width: 100%;
-  padding: 0.5em;
-  margin-bottom: 1em;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-  box-sizing: border-box;
+    width: 100%;
+    padding: 0.5em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    box-sizing: border-box;
 }
 
 label {
-  display: block;
-  font-weight: bold;
-  margin-top: 1em;
+    display: block;
+    font-weight: bold;
+    margin-top: 1em;
 }
 
 input[type="submit"],
 input[type="reset"] {
-  width: auto;
-  padding: 0.5em 1em;
-  background-color: #007BFF;
-  color: #fff;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
+    width: auto;
+    padding: 0.5em 1em;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 input[type="submit"]:hover,
 input[type="reset"]:hover {
-  background-color: #0056b3;
+    background-color: #0056b3;
 }
 
 input[type="checkbox"],
 input[type="radio"] {
-  margin-right: 0.5em;
-  transform: scale(1.2);
-  vertical-align: middle;
+    margin-right: 0.5em;
+    transform: scale(1.2);
+    vertical-align: middle;
 }
 
 .checkbox-label {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  gap: 0.5em;
-  font-weight: normal;
-  margin-top: 1em;
-  margin-bottom: 1em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: normal;
+    margin-top: 1em;
+    margin-bottom: 1em;
 }
 
 .radio-set {
-  border: none;
-  margin-top: 1em;
-  padding: 0;
+    border: none;
+    margin-top: 1em;
+    padding: 0;
 }
 
 .radio-set legend {
-  font-weight: bold;
-  margin-bottom: 0.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
 }
 
 .radio-label {
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  gap: 0.5em;
-  font-weight: normal;
-  margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 0.5em;
+    font-weight: normal;
+    margin-bottom: 0.5em;
 }
 
 fieldset {
-  border: 1px solid #ccc;
-  padding: 1em;
-  margin-bottom: 2em;
-  border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 1em;
+    margin-bottom: 2em;
+    border-radius: 6px;
 }
 
 legend {
-  font-weight: bold;
-  padding: 0 0.5em;
+    font-weight: bold;
+    padding: 0 0.5em;
 }
 
 input:focus,
 textarea:focus,
 select:focus {
-  outline: 2px solid #007BFF;
-  outline-offset: 2px;
+    outline: 2px solid #007BFF;
+    outline-offset: 2px;
 }
 
 .contact-form {
-  max-width: 600px;
-  margin: 0 auto;
+    max-width: 600px;
+    margin: 0 auto;
 }
+
 input[type="checkbox"]:focus,
 input[type="radio"]:focus {
-  outline: none;
-  box-shadow: none;
+    outline: none;
+    box-shadow: none;
 }
+
 input[type="checkbox"]:hover,
 input[type="radio"]:hover {
-  cursor: pointer;
-  filter: brightness(0.9);
+    cursor: pointer;
+    filter: brightness(0.9);
 }
+
 .success-heading {
-  color: #28a745;
-  margin-top: 1em;
+    color: #28a745;
+    margin-top: 1em;
 }
 
 .success-message {
-  color: #155724;
-  background-color: #d4edda;
-  border: 1px solid #c3e6cb;
-  padding: 1em;
-  border-radius: 4px;
-  font-weight: bold;
+    color: #155724;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    padding: 1em;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
-table{
-  width: 100%;
-  border-collapse: collapse;
-  margin-bottom: 1rem;
-}
-th, td{
-  border: 1px solid #ccc;
-  padding: 8px;
-  text-align: left;
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
 }
 
-th{
-  background-color: #f2f2f2;
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
 }
-tr:nth-child(even){
-  background-color: #f9f9f9;
+
+th {
+    background-color: #f2f2f2;
 }
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
 tr:hover {
-  background-color: #e0e0e0;
+    background-color: #e0e0e0;
 }
+
 
 
 

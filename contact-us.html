@@ -17,7 +17,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="images/favicon/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="images/favicon/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="images/favicon/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
@@ -31,107 +31,108 @@
 </head>
 
 <body>
-    <header class="page-header">
-        <h1>Launch Studio</h1>
-        <nav class="topnav">
-            <a href="index.html">Home</a>
-            <a class="active" href="contact-us.html">Contact</a>
-            <a href="about-us.html">About</a>
-        </nav>
-    </header>
-    <main class="main-content">
-        <h2>Contact Us</h2>
-        <p> Thank you for reaching out contact page if you have any questions fill out the form</p>
+<header class="page-header">
+    <h1>Launch Studio</h1>
+    <nav class="topnav">
+        <a href="index.html">Home</a>
+        <a class="active" href="contact-us.html">Contact</a>
+        <a href="about-us.html">About</a>
+        <a href="team.html">Team</a>
+    </nav>
+</header>
+<main class="main-content">
+    <h2>Contact Us</h2>
+    <p> Thank you for reaching out contact page if you have any questions fill out the form</p>
 
-        <form action="success.html" method="get"  name="contact" class="contact-form">
-            <fieldset>
-                <legend>Get in Touch:</legend>
+    <form action="success.html" method="get" name="contact" class="contact-form">
+        <fieldset>
+            <legend>Get in Touch:</legend>
 
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
 
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" placeholder="Email">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Email">
 
-                <label for="reason">Reason for Contact:</label>
-                <select id="reason" name="reason" required>
-                    <option value="">--Please choose an option--</option>
-                    <option value="support">Support</option>
-                    <option value="feedback">Feedback</option>
-                    <option value="other">Other</option>
-                </select>
+            <label for="reason">Reason for Contact:</label>
+            <select id="reason" name="reason" required>
+                <option value="">--Please choose an option--</option>
+                <option value="support">Support</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select>
 
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5"></textarea>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5"></textarea>
 
-                <fieldset class="radio-set">
-                    <legend>Message Type</legend>
+            <fieldset class="radio-set">
+                <legend>Message Type</legend>
 
-                    <label class="radio-label">
-                        <input id="question" type="radio" name="request">
-                        Question
-                    </label>
-
-                    <label class="radio-label">
-                        <input id="comment" type="radio" name="request">
-                        Comment
-                    </label>
-                </fieldset>
-
-                <label class="checkbox-label">
-                    <input type="checkbox" id="subscribe" name="subscribe">
-                    Subscribe to our newsletter
+                <label class="radio-label">
+                    <input id="question" type="radio" name="request">
+                    Question
                 </label>
 
-                <input type="submit" value="Send Message">
-                <input type="reset" value="Clear Form">
+                <label class="radio-label">
+                    <input id="comment" type="radio" name="request">
+                    Comment
+                </label>
             </fieldset>
-        </form>
-        <table class="table-wrapper">
-            <caption>Basic Table</caption>
-            <thead>
-            <tr>
-                <th scope="col" abbr="Date">Date</th>
-                <th scope="col" abbr="Topic">Topic</th>
-                <th scope="col" abbr="Instructor">Instructor</th>
-            </tr>
-            </thead>
-            <tbody>
-            <tr>
-                <td>Oct 28</td>
-                <td>HTML & Semantic Structure</td>
-                <td>Maria Lopez</td>
-            </tr>
-            <tr>
-                <td>Oct 30</td>
-                <td>CSS Layouts: Flexbox & Grid</td>
-                <td>James Carter</td>
-            </tr>
-            <tr>
-                <td>Nov 1</td>
-                <td>Responsive Design Basics</td>
-                <td>Aisha Patel</td>
-            </tr>
-            <tr>
-                <td>Nov 4</td>
-                <td>JavaScript Fundamentals</td>
-                <td>Tom Nguyen</td>
-            </tr>
-            <tr>
-                <td>Nov 12</td>
-                <td>CSS Animations & Transitions</td>
-                <td>Chris Allen</td>
-            </tr>
-            </tbody>
-        </table>
 
-    </main>
+            <label class="checkbox-label">
+                <input type="checkbox" id="subscribe" name="subscribe">
+                Subscribe to our newsletter
+            </label>
 
-    <footer class="page-footer">
-        <p> Link to <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas college</a></p>
-        <p>Send an <a href="mailto:sherd@dallascollege.edu">Email to the Webmaster</a></p>
-        <p> Link to <a href="https://chatgpt.com/"> Ai assistance</a></p>
-    </footer>
+            <input type="submit" value="Send Message">
+            <input type="reset" value="Clear Form">
+        </fieldset>
+    </form>
+    <table class="table-wrapper">
+        <caption>Basic Table</caption>
+        <thead>
+        <tr>
+            <th scope="col" abbr="Date">Date</th>
+            <th scope="col" abbr="Topic">Topic</th>
+            <th scope="col" abbr="Instructor">Instructor</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Oct 28</td>
+            <td>HTML & Semantic Structure</td>
+            <td>Maria Lopez</td>
+        </tr>
+        <tr>
+            <td>Oct 30</td>
+            <td>CSS Layouts: Flexbox & Grid</td>
+            <td>James Carter</td>
+        </tr>
+        <tr>
+            <td>Nov 1</td>
+            <td>Responsive Design Basics</td>
+            <td>Aisha Patel</td>
+        </tr>
+        <tr>
+            <td>Nov 4</td>
+            <td>JavaScript Fundamentals</td>
+            <td>Tom Nguyen</td>
+        </tr>
+        <tr>
+            <td>Nov 12</td>
+            <td>CSS Animations & Transitions</td>
+            <td>Chris Allen</td>
+        </tr>
+        </tbody>
+    </table>
+
+</main>
+
+<footer class="page-footer">
+    <p> Link to <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas college</a></p>
+    <p>Send an <a href="mailto:sherd@dallascollege.edu">Email to the Webmaster</a></p>
+    <p> Link to <a href="https://chatgpt.com/"> Ai assistance</a></p>
+</footer>
 </body>
 
 </html>

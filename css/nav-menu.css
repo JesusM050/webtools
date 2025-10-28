@@ -1,4 +1,7 @@
 .topnav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -30,4 +33,7 @@
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
+}
+.sign-in {
+    margin-left: auto;
 }

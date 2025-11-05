@@ -17,7 +17,7 @@
 }
 
 .topnav a {
-    color: #111;
+    color: #000;
     text-decoration: none;
     font-size: 1rem;
     margin: 0 1rem;
@@ -29,7 +29,7 @@
 }
 
 .topnav a.active {
-    background-color: #04aa6d;
+    background-color: #007a4d;
     color: white;
     padding: 5px 10px;
     border-radius: 5px;

@@ -19,3 +19,5 @@
 - Select menu
 - Submit and reset buttons The form is centered and styled to match the site’s layout. The table uses semantic tags like <caption>, <thead>, <tbody>, <th scope="col">, and <td> for accessibility.
 - success.html A confirmation page that appears after form submission. It matches the site's header, nav, and footer structure but is excluded from navigation links on other pages.
+- Added w3 css notes on the Team page
+- Added w3-button in the products page

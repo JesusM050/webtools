@@ -6,7 +6,9 @@
     border: 10px groove whitesmoke;
     z-index: 1;
     position: relative;
+
 }
+
 
 .main-content {
     box-sizing: border-box;

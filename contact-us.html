@@ -32,34 +32,36 @@
 </head>
 
 <body>
-<header class="page-header">
-    <h1>Launch Studio</h1>
-    <nav class="topnav">
-        <a href="index.html">Home</a>
-        <a class="active" href="contact-us.html">Contact</a>
-        <a href="about-us.html">About</a>
-        <a href="team.html">Team</a>
-        <a href="products.html">Products</a>
+<header class="page-header w3-container w3-indigo w3-padding">
+    <h1 class="w3-text-white">Launch Studio</h1>
+    <nav class="topnav w3-bar w3-light-grey">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a class="w3-bar-item w3-button w3-blue w3-text-black" href="contact-us.html">Contact</a>
+        <a href="about-us.html" class="w3-bar-item w3-button">About</a>
+        <a href="team.html" class="w3-bar-item w3-button">Team</a>
+        <a href="products.html" class="w3-bar-item w3-button">Products</a>
     </nav>
 </header>
-<main class="main-content">
+
+<main class="main-content w3-container">
     <div class="w3-panel w3-pale-blue w3-leftbar w3-rightbar w3-border-blue">
         <h2>Contact Us</h2>
-        <p> Thank you for reaching out contact page if you have any questions fill out the form</p>
+        <p>Thank you for reaching out to our contact page. If you have any questions, please fill out the form below.</p>
     </div>
 
-    <form action="success.html" method="get" name="contact" class="contact-form w3-container">
+    <!-- Contact Form -->
+    <form action="success.html" method="get" name="contact" class="contact-form w3-container w3-card-4 w3-padding">
         <fieldset>
-            <legend>Get in Touch:</legend>
+            <legend class="w3-text-indigo">Get in Touch:</legend>
 
             <label for="name">Name:</label>
-            <input class="w3-input w3-animate-input" type="text" id="name" name="name" required>
+            <input class="w3-input w3-border w3-margin-bottom" type="text" id="name" name="name" required>
 
             <label for="email">Email:</label>
-            <input class="w3-input w3-animate-input" type="email" id="email" name="email" placeholder="Email">
+            <input class="w3-input w3-border w3-margin-bottom" type="email" id="email" name="email" placeholder="Email">
 
             <label for="reason">Reason for Contact:</label>
-            <select class="w3-select w3-border" id="reason" name="reason" required>
+            <select class="w3-select w3-border w3-margin-bottom" id="reason" name="reason" required>
                 <option value="">--Please choose an option--</option>
                 <option value="support">Support</option>
                 <option value="feedback">Feedback</option>
@@ -67,76 +69,78 @@
             </select>
 
             <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="5"></textarea>
+            <textarea class="w3-input w3-border w3-margin-bottom" id="message" name="message" rows="5"></textarea>
 
-            <fieldset class="radio-set">
+            <fieldset class="radio-set w3-margin-bottom">
                 <legend>Message Type</legend>
-
                 <label class="radio-label">
-                    <input class="w3-radio" id="question" type="radio" name="request">
-                    Question
+                    <input class="w3-radio" id="question" type="radio" name="request"> Question
                 </label>
-
                 <label class="radio-label">
-                    <input class="w3-radio" id="comment" type="radio" name="request">
-                    Comment
+                    <input class="w3-radio" id="comment" type="radio" name="request"> Comment
                 </label>
             </fieldset>
 
-            <label class="checkbox-label">
-                <input class="w3-check" type="checkbox" id="subscribe" name="subscribe">
-                Subscribe to our newsletter
+            <label class="checkbox-label w3-margin-bottom">
+                <input class="w3-check" type="checkbox" id="subscribe" name="subscribe"> Subscribe to our newsletter
             </label>
 
-            <input type="submit" value="Send Message">
-            <input type="reset" value="Clear Form">
+            <div class="w3-margin-top">
+                <input class="w3-button w3-indigo w3-text-white w3-margin-right" type="submit" value="Send Message">
+                <input class="w3-button w3-red w3-text-black" type="reset" value="Clear Form">
+            </div>
         </fieldset>
     </form>
-    <table class="table-wrapper w3-table-all w3-card-4 w3-hoverable">
-        <caption>Course Topics</caption>
-        <thead class="w3-light-grey">
+
+    <!-- Course Topics Table -->
+    <table class="table-wrapper w3-table-all w3-card-4 w3-hoverable w3-centered w3-margin-top">
+        <caption class="w3-padding w3-large w3-text-indigo">Course Topics</caption>
+
+        <thead class="w3-dark-grey w3-text-black">
         <tr>
-            <th scope="col" abbr="Date">Date</th>
-            <th class="w3-center" scope="col" abbr="Topic">Topic</th>
-            <th scope="col" abbr="Instructor">Instructor</th>
+            <th>Date</th>
+            <th>Topic</th>
+            <th>Instructor</th>
         </tr>
         </thead>
+
+
         <tbody>
-        <tr>
+        <tr class="w3-light-grey">
             <td>Oct 28</td>
             <td>HTML & Semantic Structure</td>
             <td>Maria Lopez</td>
         </tr>
-        <tr>
+        <tr class="w3-pale-blue">
             <td>Oct 30</td>
             <td>CSS Layouts: Flexbox & Grid</td>
             <td>James Carter</td>
         </tr>
-        <tr>
+        <tr class="w3-light-grey">
             <td>Nov 1</td>
             <td>Responsive Design Basics</td>
             <td>Aisha Patel</td>
         </tr>
-        <tr>
+        <tr class="w3-pale-blue">
             <td>Nov 4</td>
             <td>JavaScript Fundamentals</td>
             <td>Tom Nguyen</td>
         </tr>
-        <tr>
+        <tr class="w3-light-grey">
             <td>Nov 12</td>
             <td>CSS Animations & Transitions</td>
             <td>Chris Allen</td>
         </tr>
         </tbody>
     </table>
-
 </main>
 
-<footer class="page-footer">
-    <p> Link to <a href="https://www.dallascollege.edu/pages/default.aspx">Dallas college</a></p>
-    <p>Send an <a href="mailto:sherd@dallascollege.edu">Email to the Webmaster</a></p>
-    <p> Link to <a href="https://chatgpt.com/"> Ai assistance</a></p>
+<footer class="page-footer w3-container w3-indigo w3-padding w3-text-white">
+    <p>Link to <a class="w3-text-white" href="https://www.dallascollege.edu/pages/default.aspx">Dallas College</a></p>
+    <p>Send an <a class="w3-text-white" href="mailto:sherd@dallascollege.edu">Email to the Webmaster</a></p>
+    <p>Link to <a class="w3-text-white" href="https://chatgpt.com/">AI assistance</a></p>
 </footer>
+
 </body>
 
 </html>

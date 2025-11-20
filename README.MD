@@ -23,3 +23,4 @@
 - Added w3-button in the products page
 - style my table and my form also added contact us note
 - style my list on the teams page
+- Improved color contrast across table headers, form buttons, footer, and navigation bar for accessibility. on the contact us page
